@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+}
+
+.contenedor {
+    background-color: white;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+    grid-template-areas:
+        "header"
+        "section"
+        "footer";
+    /*  place-content: center; */
+    min-height: 100vh;
+}
+
+header {
+    grid-area: header;
+    height: fit-content;
+}
+
+.main-container {
+    grid-area: section;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 30% 70%;
+    grid-template-areas:
+        "punk info"
+        "gallery gallery";
+}
+
+.main-footer {
+    grid-area: footer;
+}
+
+.main-footer {
+    background-color: cadetblue;
+}
+
+
+
+
+.main-footer a,
+.main-footer a:link,
+.main-footer a:visited,
+.main-footer a:hover,
+.main-footer a:active {
+    color: #fff;
+}
+
+
+/* Nav */
+.logo {
+    width: auto;
+    height: 40px;
+}
+
+.navbar-left ul,
+.navbar-right ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 24px;
+    border-bottom: solid 0.5px;
+}
+
+.navbar-left ,.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left ul,
+.navbar-right ul {
+    margin: 0;
+}
+.navbar-left ul li a,
+.navbar-right ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 8px;
+}
+
+/* ./Nav */
+.main-footer {
+    height: fit-content;
+    align-self: end;
+
+}
+
+.main-footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-footer p {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    color: #fff;
+}
+/*./footer*/
+.ProductList{
+    grid-area: gallery;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,240px);
+    place-content: center;
+    gap:26px;
+    padding: 3em 0;
+
+}
+.ProductItem {
+    width: 259px;
+    height: 464px;
+    border: solid #888;
+    text-align: center;
+}
+/*loader*/
+.loader{
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: loader 2s linear forwards;
+}
+@keyframes loader {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    95% {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.loader div{
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    transform: scale(0);
+    animation: scaling 2s ease-in-out infinite;
+}
+.loader div:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.loader div:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.loader div:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+@keyframes scaling {
+
+    0%,
+    100% {
+        transform: scale(0);
+    }
+
+    40% {
+        transform: scale(1);
+    }
+}
+/*./loader*/
+@media (max-width: 800px) {
+    .navbar-left ul , .navbar-right {
+        display: none;
+    }
+    .main-container {
+        grid-area: section;
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+
+    }
+}
+
+button{
+    padding: 10px;
+    width: 130px;
+    background: skyblue;
+    border: solid skyblue;
+    margin: 0 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-ad{
+    background: green;
+    color: white;
+    border: solid green;
+}
+.users{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.message{
+    border: solid #ccc 0.5px;
+    padding: 10px;
+}
+.message-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-footer span:nth-child(2){
+    font-size: 25px;
+    cursor: pointer;
+}
+.imgdemo{
+    width: 60%;
+    border: solid;
+    border-radius: 10%;
+}
