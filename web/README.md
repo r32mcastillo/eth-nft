@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/r32mcastillo/reactpractico/main/src/assets/logos/log-2.png" alt="logo" width="50" height="auto" />
 </div>
 
-**Puedes ver el resultado en:** [https://r32mcastillo.github.io/punks-interface-01/](https://r32mcastillo.github.io/punks-interface-01/).
+**Puedes ver el resultado en:** [https://r32mcastillo.github.io/eth-nft/](https://r32mcastillo.github.io/eth-nft/).
 <!-- About the Project -->
 ## :star2: Practica de Web3
 <div align="center">
@@ -58,6 +58,6 @@ Se agrego en package.json
 - [React-toastify](https://fkhadra.github.io/react-toastify/introduction)
 
 
-**Puedes ver el resultado en:** [https://r32mcastillo.github.io/punks-interface-01/](https://r32mcastillo.github.io/punks-interface-01/).
+**Puedes ver el resultado en:** [https://r32mcastillo.github.io/eth-nft/](https://r32mcastillo.github.io/eth-nft/).
 
 

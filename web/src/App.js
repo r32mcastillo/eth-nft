@@ -374,7 +374,7 @@ function App() {
                             <h3>
                                 Conecta con tu metamask a la tesnet de Goerli y adquiere tu colección de avatars generados a partir de tu address.
                             </h3>
-                            <img className='imgdemo' src='https://raw.githubusercontent.com/r32mcastillo/eth-nft/master/web/public/demo.png' />
+                            <img className='imgdemo' src='https://raw.githubusercontent.com/r32mcastillo/eth-nft/main/web/public/demo.png' />
 
                         </div>
                     </section>
