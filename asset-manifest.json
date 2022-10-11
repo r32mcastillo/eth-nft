@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/eth-nft/static/css/main.39e0b645.css",
-    "main.js": "/eth-nft/static/js/main.0770480d.js",
+    "main.css": "/eth-nft/static/css/main.0dcbe051.css",
+    "main.js": "/eth-nft/static/js/main.3a3f1fe2.js",
     "index.html": "/eth-nft/index.html",
-    "main.39e0b645.css.map": "/eth-nft/static/css/main.39e0b645.css.map",
-    "main.0770480d.js.map": "/eth-nft/static/js/main.0770480d.js.map"
+    "main.0dcbe051.css.map": "/eth-nft/static/css/main.0dcbe051.css.map",
+    "main.3a3f1fe2.js.map": "/eth-nft/static/js/main.3a3f1fe2.js.map"
   },
   "entrypoints": [
-    "static/css/main.39e0b645.css",
-    "static/js/main.0770480d.js"
+    "static/css/main.0dcbe051.css",
+    "static/js/main.3a3f1fe2.js"
   ]
 }
