@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eth-nft/static/css/main.39e0b645.css",
+    "main.js": "/eth-nft/static/js/main.0770480d.js",
+    "index.html": "/eth-nft/index.html",
+    "main.39e0b645.css.map": "/eth-nft/static/css/main.39e0b645.css.map",
+    "main.0770480d.js.map": "/eth-nft/static/js/main.0770480d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39e0b645.css",
+    "static/js/main.0770480d.js"
+  ]
+}
